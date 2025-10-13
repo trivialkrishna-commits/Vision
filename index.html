@@ -2,33 +2,39 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
- <style>
-  body { 
-    font-family: Arial, sans-serif; 
-    margin: 0; 
-    padding: 0; 
-    background-color: black; 
-    color: white; 
-    text-align: center; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* centers content vertically */
-    height: 100vh; /* full screen height */
-  }
+  
+  <!-- Google Fonts: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-  #card {
-    font-size: 24px;  /* bigger text for questions/answers */
-    padding: 20px;     /* adds space around the text */
-    line-height: 1.4;  /* easier to read multi-line answers */
-  }
+  <style>
+    body { 
+      font-family: 'Roboto', Verdana, Geneva, sans-serif; /* Roboto first, fallback to safe fonts */
+      margin: 0; 
+      padding: 0; 
+      background-color: black; 
+      color: white; 
+      text-align: center; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* vertical centering */
+      align-items: center;     /* horizontal centering */
+      height: 100vh; /* full screen height */
+    }
 
-  button { 
-    font-size: 22px;   /* bigger button for easy navigation */
-    padding: 15px; 
-    width: 90%; 
-    margin: 20px auto 0 auto; 
-  }
-</style>
+    #card {
+      font-size: 32px;       /* bigger text for better readability */
+      padding: 30px;         /* more space around the text */
+      line-height: 1.5;      /* easier to read multi-line answers */
+      max-width: 90%;        /* keeps text inside screen */
+    }
+
+    button { 
+      font-size: 26px;       /* larger button for easy navigation */
+      padding: 18px; 
+      width: 90%; 
+      margin: 20px auto 0 auto; 
+    }
+  </style>
 
 </head>
 <body>
@@ -148,3 +154,4 @@
 
 </body>
 </html>
+
